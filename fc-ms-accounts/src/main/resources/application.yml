@@ -1,11 +1,3 @@
-server:
-  port: 3003
-
 spring:
-  application:
-    name: fc-ms-accounts
-
-  kafka:
-    bootstrap-servers: localhost:9092
-    consumer:
-      group-id: accounts-consumer
+  profiles:
+    active: ${ENVIRONMENT:local}

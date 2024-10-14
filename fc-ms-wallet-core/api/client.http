@@ -3,7 +3,7 @@ POST http://localhost:8080/clients
 Content-Type: application/json
 
 {
-    "name": "John Doe 3",
+    "name": "John Doe 1",
     "email": "john@j.com"
 }
 
@@ -13,7 +13,7 @@ POST http://localhost:8080/accounts
 Content-Type: application/json
 
 {
-    "client_id": "ad5b6297-ed7b-4d1c-8273-b4e5d7b83bf6"
+    "client_id": "6fb25e7d-044b-4878-abc1-8aafa68f3dcf"
 }
 
 ###
@@ -22,7 +22,7 @@ POST http://localhost:8080/transactions
 Content-Type: application/json
 
 {
-    "account_id_from": "f4a89e8f-135b-4f32-a59d-23d922c6ab01",
-    "account_id_to": "7a7e99c3-2aea-458e-bf41-3613e2898246",
-    "amount": 10
+    "account_id_from": "7df07094-3683-4cb5-adf7-96505618331f",
+    "account_id_to": "41c7648c-f6b6-4c4c-8d45-106af13e2386",
+    "amount": 1
 }

@@ -1,0 +1,51 @@
+- kind: 2
+  language: dothttp-vscode
+  value: |-
+
+    POST http://localhost:8080/clients
+    Content-Type: application/json
+
+    {
+        "name": "Jane Doe",
+        "email": "jane@j.com"
+    }
+  outputs:
+    - mime: x-application/dotbook
+      value: "[\n\t{\n\t\t\"response\": {\n\t\t\t\"body\": \"\",\n\t\t\t\"output_file\": \"\",\n\t\t\t\"headers\": {},\n\t\t\t\"status\": 200,\n\t\t\t\"method\": \"POST\",\n\t\t\t\"url\": \"http://localhost:8080/clients\",\n\t\t\t\"response\": {\n\t\t\t\t\"body\": \"{\\\"ID\\\":\\\"e4090ae6-3088-4db6-957b-7274943a520a\\\",\\\"Name\\\":\\\"Jane Doe\\\",\\\"Email\\\":\\\"jane@j.com\\\",\\\"CreatedAt\\\":\\\"2024-10-14T22:13:50.035086974Z\\\",\\\"UpdatedAt\\\":\\\"2024-10-14T22:13:50.035087127Z\\\"}\\n\",\n\t\t\t\t\"output_file\": \"\",\n\t\t\t\t\"headers\": {\n\t\t\t\t\t\"Content-Type\": \"application/json\",\n\t\t\t\t\t\"Date\": \"Mon, 14 Oct 2024 22:13:50 GMT\",\n\t\t\t\t\t\"Content-Length\": \"175\"\n\t\t\t\t},\n\t\t\t\t\"status\": 200,\n\t\t\t\t\"method\": \"POST\",\n\t\t\t\t\"url\": \"http://localhost:8080/clients\",\n\t\t\t\t\"contentType\": \"application/json\"\n\t\t\t},\n\t\t\t\"script_result\": {\n\t\t\t\t\"stdout\": \"\",\n\t\t\t\t\"error\": \"\",\n\t\t\t\t\"properties\": {},\n\t\t\t\t\"tests\": [],\n\t\t\t\t\"compiled\": true\n\t\t\t},\n\t\t\t\"http\": \"@name(\\\"1\\\")\\nPOST \\\"http://localhost:8080/clients\\\"\\n\\\"Content-Type\\\": \\\"application/json\\\"\\njson({\\n    \\\"name\\\": \\\"Jane Doe\\\",\\n    \\\"email\\\": \\\"jane@j.com\\\"\\n})\\n\\n\\n\",\n\t\t\t\"filenameExtension\": \"json\"\n\t\t},\n\t\t\"metadata\": {\n\t\t\t\"uri\": {\n\t\t\t\t\"$mid\": 1,\n\t\t\t\t\"fsPath\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"external\": \"vscode-notebook-cell://wsl%2Bubuntu-24.04/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook#W0sdnNjb2RlLXJlbW90ZQ%3D%3D\",\n\t\t\t\t\"path\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"scheme\": \"vscode-notebook-cell\",\n\t\t\t\t\"authority\": \"wsl+ubuntu-24.04\",\n\t\t\t\t\"fragment\": \"W0sdnNjb2RlLXJlbW90ZQ==\"\n\t\t\t},\n\t\t\t\"cellNo\": 0,\n\t\t\t\"date\": \"2024-13-14--19-10-50\",\n\t\t\t\"target\": \"1\",\n\t\t\t\"executionTime\": \"0.0\"\n\t\t}\n\t},\n\t{\n\t\t\"response\": {\n\t\t\t\"body\": \"\",\n\t\t\t\"output_file\": \"\",\n\t\t\t\"headers\": {},\n\t\t\t\"status\": 500,\n\t\t\t\"method\": \"POST\",\n\t\t\t\"url\": \"http://localhost:8080/clients\",\n\t\t\t\"response\": {\n\t\t\t\t\"body\": \"\",\n\t\t\t\t\"output_file\": \"\",\n\t\t\t\t\"headers\": {\n\t\t\t\t\t\"Date\": \"Mon, 14 Oct 2024 22:12:40 GMT\",\n\t\t\t\t\t\"Content-Length\": \"0\"\n\t\t\t\t},\n\t\t\t\t\"status\": 500,\n\t\t\t\t\"method\": \"POST\",\n\t\t\t\t\"url\": \"http://localhost:8080/clients\"\n\t\t\t},\n\t\t\t\"script_result\": {\n\t\t\t\t\"stdout\": \"\",\n\t\t\t\t\"error\": \"\",\n\t\t\t\t\"properties\": {},\n\t\t\t\t\"tests\": [],\n\t\t\t\t\"compiled\": true\n\t\t\t},\n\t\t\t\"http\": \"@name(\\\"1\\\")\\nPOST \\\"http://localhost:8080/clients\\\"\\n\\\"Content-Type\\\": \\\"application/json\\\"\\njson({\\n    \\\"name\\\": \\\"Jane Doe\\\",\\n    \\\"email\\\": \\\"jane@j.com\\\"\\n})\\n\\n\\n\",\n\t\t\t\"filenameExtension\": \"txt\"\n\t\t},\n\t\t\"metadata\": {\n\t\t\t\"uri\": {\n\t\t\t\t\"$mid\": 1,\n\t\t\t\t\"fsPath\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"external\": \"vscode-notebook-cell://wsl%2Bubuntu-24.04/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook#W0sdnNjb2RlLXJlbW90ZQ%3D%3D\",\n\t\t\t\t\"path\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"scheme\": \"vscode-notebook-cell\",\n\t\t\t\t\"authority\": \"wsl+ubuntu-24.04\",\n\t\t\t\t\"fragment\": \"W0sdnNjb2RlLXJlbW90ZQ==\"\n\t\t\t},\n\t\t\t\"cellNo\": 0,\n\t\t\t\"date\": \"2024-12-14--19-10-37\",\n\t\t\t\"target\": \"1\",\n\t\t\t\"executionTime\": \"3.4\"\n\t\t}\n\t}\n]"
+    - mime: text/x-json
+      value: >
+        {"ID":"e4090ae6-3088-4db6-957b-7274943a520a","Name":"Jane
+        Doe","Email":"jane@j.com","CreatedAt":"2024-10-14T22:13:50.035086974Z","UpdatedAt":"2024-10-14T22:13:50.035087127Z"}
+- kind: 2
+  language: dothttp-vscode
+  value: |-
+
+    ###
+
+    POST http://localhost:8080/accounts
+    Content-Type: application/json
+
+    {
+        "client_id": "e4090ae6-3088-4db6-957b-7274943a520a"
+    }
+  outputs:
+    - mime: x-application/dotbook
+      value: "[\n\t{\n\t\t\"response\": {\n\t\t\t\"body\": \"\",\n\t\t\t\"output_file\": \"\",\n\t\t\t\"headers\": {},\n\t\t\t\"status\": 200,\n\t\t\t\"method\": \"POST\",\n\t\t\t\"url\": \"http://localhost:8080/accounts\",\n\t\t\t\"response\": {\n\t\t\t\t\"body\": \"{\\\"ID\\\":\\\"d6ae055a-8b27-4318-8c7c-7259fd674977\\\"}\\n\",\n\t\t\t\t\"output_file\": \"\",\n\t\t\t\t\"headers\": {\n\t\t\t\t\t\"Content-Type\": \"application/json\",\n\t\t\t\t\t\"Date\": \"Mon, 14 Oct 2024 22:14:05 GMT\",\n\t\t\t\t\t\"Content-Length\": \"46\"\n\t\t\t\t},\n\t\t\t\t\"status\": 200,\n\t\t\t\t\"method\": \"POST\",\n\t\t\t\t\"url\": \"http://localhost:8080/accounts\",\n\t\t\t\t\"contentType\": \"application/json\"\n\t\t\t},\n\t\t\t\"script_result\": {\n\t\t\t\t\"stdout\": \"\",\n\t\t\t\t\"error\": \"\",\n\t\t\t\t\"properties\": {},\n\t\t\t\t\"tests\": [],\n\t\t\t\t\"compiled\": true\n\t\t\t},\n\t\t\t\"http\": \"@name(\\\"1\\\")\\nPOST \\\"http://localhost:8080/accounts\\\"\\n\\\"Content-Type\\\": \\\"application/json\\\"\\njson({\\n    \\\"client_id\\\": \\\"e4090ae6-3088-4db6-957b-7274943a520a\\\"\\n})\\n\\n\\n\",\n\t\t\t\"filenameExtension\": \"json\"\n\t\t},\n\t\t\"metadata\": {\n\t\t\t\"uri\": {\n\t\t\t\t\"$mid\": 1,\n\t\t\t\t\"fsPath\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"external\": \"vscode-notebook-cell://wsl%2Bubuntu-24.04/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook#W1sdnNjb2RlLXJlbW90ZQ%3D%3D\",\n\t\t\t\t\"path\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"scheme\": \"vscode-notebook-cell\",\n\t\t\t\t\"authority\": \"wsl+ubuntu-24.04\",\n\t\t\t\t\"fragment\": \"W1sdnNjb2RlLXJlbW90ZQ==\"\n\t\t\t},\n\t\t\t\"cellNo\": 1,\n\t\t\t\"date\": \"2024-14-14--19-10-05\",\n\t\t\t\"target\": \"1\",\n\t\t\t\"executionTime\": \"0.0\"\n\t\t}\n\t},\n\t{\n\t\t\"response\": {\n\t\t\t\"body\": \"\",\n\t\t\t\"output_file\": \"\",\n\t\t\t\"headers\": {},\n\t\t\t\"status\": 500,\n\t\t\t\"method\": \"POST\",\n\t\t\t\"url\": \"http://localhost:8080/accounts\",\n\t\t\t\"response\": {\n\t\t\t\t\"body\": \"\",\n\t\t\t\t\"output_file\": \"\",\n\t\t\t\t\"headers\": {\n\t\t\t\t\t\"Date\": \"Mon, 14 Oct 2024 22:12:55 GMT\",\n\t\t\t\t\t\"Content-Length\": \"0\"\n\t\t\t\t},\n\t\t\t\t\"status\": 500,\n\t\t\t\t\"method\": \"POST\",\n\t\t\t\t\"url\": \"http://localhost:8080/accounts\"\n\t\t\t},\n\t\t\t\"script_result\": {\n\t\t\t\t\"stdout\": \"\",\n\t\t\t\t\"error\": \"\",\n\t\t\t\t\"properties\": {},\n\t\t\t\t\"tests\": [],\n\t\t\t\t\"compiled\": true\n\t\t\t},\n\t\t\t\"http\": \"@name(\\\"1\\\")\\nPOST \\\"http://localhost:8080/accounts\\\"\\n\\\"Content-Type\\\": \\\"application/json\\\"\\njson({\\n    \\\"client_id\\\": \\\"b3843a26-ef45-4991-b57e-0898d8a9bf69\\\"\\n})\\n\\n\\n\",\n\t\t\t\"filenameExtension\": \"txt\"\n\t\t},\n\t\t\"metadata\": {\n\t\t\t\"uri\": {\n\t\t\t\t\"$mid\": 1,\n\t\t\t\t\"fsPath\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"external\": \"vscode-notebook-cell://wsl%2Bubuntu-24.04/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook#W1sdnNjb2RlLXJlbW90ZQ%3D%3D\",\n\t\t\t\t\"path\": \"/home/jhonatapers/fullcycle/event-driven-architecture/entrega/fc-eda/fc-ms-wallet-core/app/api/client.http.httpbook\",\n\t\t\t\t\"scheme\": \"vscode-notebook-cell\",\n\t\t\t\t\"authority\": \"wsl+ubuntu-24.04\",\n\t\t\t\t\"fragment\": \"W1sdnNjb2RlLXJlbW90ZQ==\"\n\t\t\t},\n\t\t\t\"cellNo\": 1,\n\t\t\t\"date\": \"2024-12-14--19-10-51\",\n\t\t\t\"target\": \"1\",\n\t\t\t\"executionTime\": \"3.5\"\n\t\t}\n\t}\n]"
+    - mime: text/x-json
+      value: |
+        {"ID":"d6ae055a-8b27-4318-8c7c-7259fd674977"}
+- kind: 2
+  language: dothttp-vscode
+  value: |-
+
+    ###
+
+    POST http://localhost:8080/transactions
+    Content-Type: application/json
+
+    {
+        "account_id_from": "7df07094-3683-4cb5-adf7-96505618331f",
+        "account_id_to": "41c7648c-f6b6-4c4c-8d45-106af13e2386",
+        "amount": 1
+    }
+  outputs: []

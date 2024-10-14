@@ -1,5 +1,5 @@
 FROM gradle:8.10.2-jdk23-alpine AS builder
-WORKDIR /app
+WORKDIR /java-app
 COPY . .
 RUN gradle build
 

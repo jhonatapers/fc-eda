@@ -3,8 +3,8 @@ POST http://localhost:8080/clients
 Content-Type: application/json
 
 {
-    "name": "John Doe 1",
-    "email": "john@j.com"
+    "name": "Jane Doe",
+    "email": "jane@j.com"
 }
 
 ###
@@ -13,7 +13,7 @@ POST http://localhost:8080/accounts
 Content-Type: application/json
 
 {
-    "client_id": "6fb25e7d-044b-4878-abc1-8aafa68f3dcf"
+    "client_id": "b3843a26-ef45-4991-b57e-0898d8a9bf69"
 }
 
 ###

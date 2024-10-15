@@ -6,5 +6,5 @@ RUN gradle build
 FROM openjdk:23-slim
 WORKDIR /app
 ENV ENVIRIOMENT=docker
-COPY --from=builder /app/build/libs/app.jar .
+COPY --from=builder /java-app/build/libs/app.jar .
 CMD [ "java", "-jar",  "app.jar" ]

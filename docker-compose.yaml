@@ -2,7 +2,7 @@ services:
 
   javaapp:
     container_name: account-app
-    build: ./fc-ms-account
+    build: ./fc-ms-balance
     platform: linux/amd64
     ports:
       - 3003:8080
@@ -28,6 +28,7 @@ services:
       - 3306:3306
     volumes:
       - .docker/mysql:/var/lib/mysql
+      - ./db/fc-ms-wallet-core/:/docker-entrypoint-initdb.d
 
   zookeeper:
     image: "confluentinc/cp-zookeeper:6.1.0"

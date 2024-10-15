@@ -43,6 +43,7 @@ services:
   kafka:
     image: "confluentinc/cp-enterprise-kafka:6.1.0"
     container_name: kafka
+    restart: always
     depends_on:
       - zookeeper
     ports:

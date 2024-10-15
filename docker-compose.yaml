@@ -1,11 +1,11 @@
 services:
 
   javaapp:
-    container_name: account-app
+    container_name: balance-app
     build: ./fc-ms-balance
     platform: linux/amd64
     ports:
-      - 3003:8080
+      - 3004:8080
     environment:
       - ENVIRONMENT=docker
 

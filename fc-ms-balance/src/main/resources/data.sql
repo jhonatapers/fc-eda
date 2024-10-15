@@ -1,0 +1,1 @@
+insert into accounts (id, balance) values ('dd37c557-0522-43ea-9717-11421ba134b6', 1000);

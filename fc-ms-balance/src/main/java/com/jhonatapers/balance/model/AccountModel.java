@@ -12,17 +12,17 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table(schema = "wallet", name = "accounts")
+@Table(name = "accounts")
 @Entity
 public class AccountModel {
 
     @Id
-    private String accountId;
+    private String id;
 
     private BigDecimal balance;
 
-    public AccountModel(String accountId) {
-        this.accountId = accountId;
+    public AccountModel(String id) {
+        this.id = id;
     }
 
 }

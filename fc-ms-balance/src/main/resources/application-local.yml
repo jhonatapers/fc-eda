@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: fc-ms-balance
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: accounts-consumer
